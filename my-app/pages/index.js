@@ -18,6 +18,7 @@ import { swapTokens, getAmountOfTokensReceivedFromSwap } from "../utils/swap";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
+  const[sent,setSent] = useState(false);
   //since we have two tabs if liquiditytab is true we are in liquiditytab
   //if not we are in swap
   const [liquidityTab, setLiquidityTab] = useState(true);
