@@ -2,7 +2,7 @@
 
 -You can swap between ETH/CD and earn LP Token if you give some ETH to the pool.
 -To earn CD beforehand,join our whitelist and mint some NFTs.
-
+-Swap logic is based on general x*y = constant to keep the ratio stable in the pool.
 
 Features will be added such as:
 -Exchanging NFTs
